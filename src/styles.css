@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(https://unpkg.com//bootstrap@4.1.0/dist/css/bootstrap.min.css);
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
+    height: 100%;
+}
+.mat-card{
+    height: 100%;
+    box-shadow: none !important;
+}
+.resume {
+    float: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+}
+.contact-details {
+    float: left;
+    width: 30%;
+    border-right: 1px grey thin;
+    padding-right: 0px;
+    height: 100%;
+}
+.resume-summary {
+    width: 70%;
+    float: right;
+    margin-left: 0px;
+    
+}
+.technical-skills {
+    width: 50%;
+    float: left;
+    margin:0 auto;
+}
+.framework-and-tools {
+    float: right;
+    width: 50%;
+}
+.level {
+    font-size: medium;
+    margin: 0 auto;
+    display: inline-block;
+}
+.professional {
+    margin-top: 60%;
+    width: 100%;
+    height: fit-content;
+}
+.subtitle {
+    font-weight: bold;
+    font-size: 18px;
+}
+.custom-divider {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ul.ba {
+    list-style-type: none;
+}

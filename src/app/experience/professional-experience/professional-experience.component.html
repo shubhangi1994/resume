@@ -1,0 +1,11 @@
+<mat-card>
+    <mat-card-title>Professional Experience</mat-card-title>
+    <mat-divider></mat-divider>
+    <br>
+    <mat-card-subtitle  class="subtitle">Altran Technologies Pvt Ltd, Full Time - Feb 2016 to Present</mat-card-subtitle>
+    <div *ngFor="let project of projects" class="projects">
+        <p style="font-style: normal; font-weight: bold;">{{project.title}}</p>
+        <p>{{project.content}}</p>
+        <p>{{project.technologies}}</p>
+    </div>
+</mat-card>

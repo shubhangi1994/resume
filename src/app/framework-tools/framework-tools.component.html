@@ -1,0 +1,11 @@
+<mat-card style="position: absolute;">
+    <mat-card-title >Framework & Tools</mat-card-title>
+    <mat-divider></mat-divider>
+    <ng-container *ngFor="let skill of skills">
+        <div style="width: 100%;white-space:nowrap;overflow:hidden;"><p>{{skill.skill}}</p>
+        <mat-icon *ngFor="let i of skill.level" class="level">stop_circle</mat-icon>
+        <mat-icon *ngFor="let i of skill.remaining" class="level">radio_button_unchecked</mat-icon>
+        </div>
+        <!-- <mat-icon *ngFor="let i of skill.remaining" class="level">stop_circle</mat-icon> -->
+    </ng-container>
+</mat-card>
